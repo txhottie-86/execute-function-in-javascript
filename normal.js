@@ -1,4 +1,2 @@
-const fullName = name || 'buddy';
-var c = new Counter(); c.add(); c.add(); c.add();
-const isArray = (arr) => Array.isArray(arr);
-const merge = (a, b) => a.concat(b);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const merge = Object.assign({}, obj1, obj2);
