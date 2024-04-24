@@ -1,3 +1,4 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const channel = getChannel(computedAppVersion);
-console.log(+"1" +  "1" + "2");
+console.log(false == '0');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const results = await Promise.all(resultingPromises);
