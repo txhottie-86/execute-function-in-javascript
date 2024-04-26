@@ -1,3 +1,5 @@
-console.log(1 +  +"2" + "2");
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const fullName = name || 'buddy';
+const randomString = () => Math.random().toString(36).slice(2);
+[foo, bar] = [bar, foo];
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
