@@ -1,6 +1,6 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const toggleBool = () => (bool = !bool);
+const uniqueArr = (arr) => [...new Set(arr)];
+const merge = (a, b) => a.concat(b);
 const randomBoolean = () => Math.random() >= 0.5;
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+var arr2 = arr1.reverse();
