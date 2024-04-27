@@ -1,6 +1,6 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const merge = (a, b) => a.concat(b);
-const randomBoolean = () => Math.random() >= 0.5;
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-var arr2 = arr1.reverse();
+const removeDuplicates = (arr) => [...new Set(arr)];
+console.log("0 && 1 = "+(0 && 1));
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+console.log("1 && 2 = "+(1 && 2));
+const merge = (a, b) => [...a, ...b];
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
