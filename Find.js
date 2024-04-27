@@ -1,2 +1,2 @@
-console.log("0 && 1 = "+(0 && 1));
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const flattenedArray = arr => [].concat(...arr);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
