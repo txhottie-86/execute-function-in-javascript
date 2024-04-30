@@ -1,1 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const updated = numbers.filter(element => element > 6);
+const isWeekday = (date) => date.getDay() % 6 !== 0;
