@@ -1,2 +1,2 @@
-const updated = numbers.filter(element => element > 6);
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const removeDuplicates = (arr) => [...new Set(arr)];
+const isEven = (num) => num % 2 === 0;
