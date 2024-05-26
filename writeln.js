@@ -1,3 +1,2 @@
-console.log(false == '0');
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const randomBoolean = () => Math.random() >= 0.5;
+const removeDuplicates = (arr) => [...new Set(arr)];
