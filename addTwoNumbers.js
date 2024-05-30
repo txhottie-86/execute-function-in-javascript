@@ -1,3 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
-const flattenedArray = arr => [].concat(...arr);
-console.log("0 && 1 = "+(0 && 1));
+const executableName = getExecutableName(channel, appName);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
