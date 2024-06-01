@@ -1,2 +1,1 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const removeDuplicates = (arr) => [...new Set(arr)];
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
