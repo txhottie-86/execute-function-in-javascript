@@ -1,3 +1,1 @@
-const result = await makeHttpRequest(url);
-const goToTop = () => window.scrollTo(0, 0);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const stringReverse = str => str.split("").reverse().join("");
