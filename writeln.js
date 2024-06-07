@@ -1,1 +1,1 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
