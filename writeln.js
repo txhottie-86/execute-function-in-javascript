@@ -1,2 +1,3 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+console.log(+"1" +  "1" + "2");
+const randomBoolean = () => Math.random() >= 0.5;
+const fullName = name || 'buddy';
