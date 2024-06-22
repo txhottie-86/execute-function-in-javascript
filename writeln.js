@@ -1,3 +1,2 @@
-console.log(+"1" +  "1" + "2");
-const randomBoolean = () => Math.random() >= 0.5;
-const fullName = name || 'buddy';
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
