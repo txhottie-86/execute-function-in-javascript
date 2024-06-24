@@ -1,2 +1,3 @@
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const stringReverse = str => str.split("").reverse().join("");
+const lastElement = arr => arr[arr.length - 1];
+const isEmptyArray = arr => !arr.length;
+const toggleBool = () => (bool = !bool);
