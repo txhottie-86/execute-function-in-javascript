@@ -1,3 +1,2 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-console.log(+"1" +  "1" + "2");
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
