@@ -1,3 +1,2 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const results = await Promise.all(resultingPromises);
-var arr2 = arr1.reverse();
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
