@@ -1,3 +1,3 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const merge = Object.assign({}, obj1, obj2);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
