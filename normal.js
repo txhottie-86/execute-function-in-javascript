@@ -1,3 +1,3 @@
-const merge = Object.assign({}, obj1, obj2);
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+var DELIM_SIZE = 4;
