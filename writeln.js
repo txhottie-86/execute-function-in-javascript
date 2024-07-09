@@ -1,3 +1,2 @@
-const merge = [...new Set(a.concat(b))];
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const stringReverse = str => str.split("").reverse().join("");
+const removeDuplicates = (arr) => [...new Set(arr)];
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
