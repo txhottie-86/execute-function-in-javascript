@@ -1,2 +1,3 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const reversedString = str => str.split('').reverse().join('');
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+console.log(false === '0');
