@@ -1,2 +1,2 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-var pattern = {};
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+console.log( "A" - "B" + "2");
