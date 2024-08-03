@@ -1,2 +1,3 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-console.log(1 +  "2" + "2");
+console.log("0 && 1 = "+(0 && 1));
+var arr2 = arr1.reverse();
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
