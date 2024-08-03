@@ -1,2 +1,2 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-function myAPITS(someString: string, someNum: number) { ... };
+const reversedString = str => str.split('').reverse().join('');
+console.log("0 && 1 = "+(0 && 1));
