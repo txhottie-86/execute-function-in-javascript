@@ -1,2 +1,3 @@
+var arr3 = "jones".split('');
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
 var regexp  = new RegExp('{{([^}]+)}}', 'g');
-console.log( "A" - "B" + "2");
