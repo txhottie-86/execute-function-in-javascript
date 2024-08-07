@@ -1,2 +1,3 @@
-const results = await Promise.all(resultingPromises);
-const uniqueArray = arr => [...new Set(arr)];
+var c = new Counter(); c.add(); c.add(); c.add();
+const channelName = getChannelName(channel);
+console.log( "A" - "B" + 2);
